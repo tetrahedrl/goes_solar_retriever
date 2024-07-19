@@ -2,7 +2,7 @@ from setuptools import setup
 
 setup(
     name='goes_solar_retriever',
-    version='0.3',
+    version='0.4',
     packages=['goessolarretriever'],
     url='',
     license='',
