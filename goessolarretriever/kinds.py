@@ -5,6 +5,8 @@ from enum import Enum, unique, auto
 class Satellite(Enum):
     GOES16 = auto()
     GOES17 = auto()
+    GOES18 = auto()
+    GOES19 = auto()
 
 
 @unique
