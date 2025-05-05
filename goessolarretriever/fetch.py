@@ -95,7 +95,10 @@ class Retriever:
         satellite_str = str.lower(str(satellite).split(".")[1])
         product_str = str(product).split(".")[1].replace("_", "-")
         level = product_str.split("-")[1]
-        date_str = date.strftime("%Y/%m/%d/")
+        if 'avg' in product_str:
+            date_str = date.strftime("%Y/%m/")
+        else:
+            date_str = date.strftime("%Y/%m/%d/")
         return "/".join([ROOT_URL, satellite_str, level, "data", product_str, date_str])
 
     @staticmethod

@@ -1,15 +1,11 @@
 from enum import Enum, unique, auto
 
-
 @unique
 class Satellite(Enum):
     GOES16 = auto()
     GOES17 = auto()
     GOES18 = auto()
     GOES19 = auto()
-
-
-@unique
 class Product(Enum):
     mag_l1b_geof = auto()
     seis_l1b_ehis = auto()
@@ -33,7 +29,28 @@ class Product(Enum):
     suvi_l2_ci284 = auto()
     suvi_l2_ci304 = auto()
     suvi_l2_thmap = auto()
-    exis-l1b-sfeu = auto()
-    mag-l1b-flat = auto()
-    euvs-l2-avg1m = auto()
-    euvs-l2-avg1d = auto()
+    exis_l1b_sfeu = auto()
+    mag_l1b_flat = auto()
+    euvs_l2_avg1m = auto()
+    euvs_l2_avg1d = auto()
+    ephe_l2_orb1m = auto()
+    euvs_l2_avg1d_science = auto()
+    euvs_l2_avg1m_science = auto()
+    sgps_l2_avg1m = auto()
+    sgps_l2_avg5m = auto()
+    suvi_eci = auto()
+    suvi_l2_brght = auto()
+    suvi_l2_chbnd = auto()
+    suvi_l2_flloc = auto()
+    xrsf_l2_avg1m = auto()
+    xrsf_l2_avg1m_science = auto()
+    xrsf_l2_bkd1d = auto()
+    xrsf_l2_bkd1d_science = auto()
+    xrsf_l2_fldet = auto()
+    xrsf_l2_fldet_science = auto()
+    xrsf_l2_flloc = auto()
+    xrsf_l2_flloc_science = auto()
+    xrsf_l2_flsum = auto()
+    xrsf_l2_flsum_science = auto()
+    xrsf_l2_flx1s = auto()
+    xrsf_l2_flx1s_science = auto()
