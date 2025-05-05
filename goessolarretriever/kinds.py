@@ -33,3 +33,7 @@ class Product(Enum):
     suvi_l2_ci284 = auto()
     suvi_l2_ci304 = auto()
     suvi_l2_thmap = auto()
+    exis-l1b-sfeu = auto()
+    mag-l1b-flat = auto()
+    euvs-l2-avg1m = auto()
+    euvs-l2-avg1d = auto()
